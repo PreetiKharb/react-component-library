@@ -1,5 +1,5 @@
 {
-  "name": "eGain-react-gadget-template",
+  "name": "@PreetiKharb/react-component-library",
   "version": "0.0.1",
   "description": "React component library for egain communications",
   "scripts": {
@@ -24,5 +24,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/PreetiKharb"
+  }
 }
