@@ -1,12 +1,13 @@
 {
   "name": "@PreetiKharb/react-component-library",
-  "version": "0.0.4",
+  "version": "0.0.0-development",
   "description": "React component library for egain communications",
   "scripts": {
     "rollup": "rollup -c",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "semantic-release": "semantic-release --branches main"
   },
   "keywords": [],
   "author": "Preeti",
@@ -40,7 +41,8 @@
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2",
     "tslib": "^2.4.0",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.3",
+    "semantic-release": "^19.0.2"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -49,11 +51,15 @@
   ],
   "types": "dist/index.d.ts",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/PreetiKharb"
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "postcss": "^8.4.12",
     "react-dom": "^18.1.0",
     "react-test-utils": "0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PreetiKharb/react-component-library.git"
   }
 }
