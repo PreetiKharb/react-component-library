@@ -1,6 +1,6 @@
 {
   "name": "@preetikharb/react-component-library",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "React component library for egain communications",
   "scripts": {
     "rollup": "rollup -c",
