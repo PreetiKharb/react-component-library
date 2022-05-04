@@ -53,9 +53,6 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/PreetiKharb"
-  },
   "dependencies": {
     "postcss": "^8.4.12",
     "react-dom": "^18.1.0",
