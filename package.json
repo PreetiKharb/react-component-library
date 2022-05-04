@@ -60,7 +60,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PreetiKharb/react-component-library.git"
+    "url": "git+https://github.com/preetikharb/react-component-library.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
