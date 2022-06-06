@@ -21,11 +21,13 @@ export const ClickMe = Template.bind({});
 ClickMe.args = {
   class: "btn btn-secondary",
   label: 'Click me!',
+  onClick: ()=> console.log('click me clicked')
 };
 
 export const HelloButton = Template.bind({});
 HelloButton.args = {
   class: "btn btn-primary",
   label: 'Hello World',
+  onClick: ()=> console.log('Hello world clicked')
 };
 
